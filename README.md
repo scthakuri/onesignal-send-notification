@@ -1,16 +1,21 @@
 # Simple PHP Library to list and send Push Notification with OneSignal Service
 
+## Installation
+```php
+composer require sureshchand/onesignal-notification
+```
+
 # Examples
 
 ### Initial Setup
 ```php
 <?php
-use Suresh\Onesignal\Notification;
+require "vendor/autoload.php";
 
 $api_id = 'API_ID';
 $rest_api_key = 'REST_API_KEY';
 
-$pushNotification = new Notification($api_id, $rest_api_key);
+$pushNotification = new \Suresh\Onesignal\Notification($api_id, $rest_api_key);
 ```
 ### Create notification
 #### Send to all subscribers
