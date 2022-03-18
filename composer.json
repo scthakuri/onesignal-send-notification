@@ -1,5 +1,5 @@
 {
-    "name": "suresh/onesignal-send-notification",
+    "name": "chp/onesignal-send-notification",
     "description": "A simple lightweight library to list and send push notification using Onesignal",
     "type": "library",
     "license": "MIT",
