@@ -1,6 +1,6 @@
 {
     "name": "sureshchand/onesignal-notification",
-    "description": "A simple lightweight library to list and send push notification using Onesignal",
+    "description": "Simple PHP Library to list and send Push Notification with OneSignal Service",
     "type": "library",
     "license": "MIT",
     "authors": [
